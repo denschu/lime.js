@@ -1,0 +1,12 @@
+[
+    {
+	    "id": "1",  
+	    "bookingtext": "Amazon Einkauf",
+	    "date": "2012-01-01"
+	}, 
+	{
+	    "id": "2",  
+	    "bookingtext": "Apple Store Einkauf",
+	    "date": "2012-01-02"
+	}
+]
