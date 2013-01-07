@@ -7,14 +7,6 @@ function TransactionListCtrl($scope, Transaction) {
   $scope.orderProp = 'bookingtext';
 }
 
-//PhoneListCtrl.$inject = ['$scope', 'Transaction'];
-
-
-
 function TransactionDetailCtrl($scope, $routeParams, Transaction) {
-  $scope.Transaction = Transaction.get({transactionId: $routeParams.transactionId}, function(transaction) {
-    //$scope.bookingtext = TODO
-  });
+  $scope.transaction = Transaction.get({transactionId: $routeParams.transactionId});
 }
-
-//PhoneDetailCtrl.$inject = ['$scope', '$routeParams', 'Transaction'];
