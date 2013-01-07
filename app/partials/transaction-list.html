@@ -1,25 +1,11 @@
 <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span2">
-      <!--Sidebar content-->
+	
+	  <table class="table table-striped table-hover table-condensed">
+		<tr ng-repeat="transaction in transactions | filter:query | orderBy:orderProp">
+			<td><a href='#/transactions/{{ transaction.id }}'>{{ transaction.bookingtext }}</a></td>
+			<td><a href='#/transactions/{{ transaction.id }}'>{{ transaction.bookingtext }}</a></td>
+			<td><a href='#/transactions/{{ transaction.id }}'>{{ transaction.bookingtext }}</a></td>
+		</tr>
+	  </table>	
 
-      Search: <input ng-model="query">
-      Sort by:
-      <select ng-model="orderProp">
-        <option value="bookingtext">Alphabetical</option>
-        <option value="date">Newest</option>
-      </select>
-
-    </div>
-    <div class="span10">
-      <!--Body content-->
-
-      <ul class="transactions">
-        <li ng-repeat="transaction in transactions | filter:query | orderBy:orderProp" class="thumbnail">
-          <a href='#/transactions/{{ transaction.id }}'>{{ transaction.bookingtext }}</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
 </div>
