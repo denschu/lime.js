@@ -47,16 +47,34 @@
 
 	<div class="container-fluid">
 	      <div class="row-fluid">
+		
+		
 	        <div class="span3">
 	          <div class="well sidebar-nav">
 		        Search: <input ng-model="query">
+				<ul class="nav nav-list">
+				              <li class="nav-header">Konten</li>
+				              <li class="active"><a href="#">All</a></li>
+				              <li><a href="#">Sparkasse Giro</a></li>
+				              <li><a href="#">Mastercard business</a></li>
+				              <li><a href="#">Visa private</a></li>
+				              <li class="nav-header">Categories</li>
+				              <li class="active"><a href="#">All</a></li>
+				              <li><a href="#">Holidays</a></li>
+				              <li><a href="#">Flat</a></li>
+				              <li class="nav-header">Projects</li>
+				              <li class="active"><a href="#">All</a></li>
+				              <li><a href="#">Egypt</a></li>
+				              <li><a href="#">Brazil</a></li>
+				              <li><a href="#">Flat</a></li>
+				</ul>
 	          </div><!--/.well -->
 	        </div><!--/span-->
 
 	        <div class="span9" ng-view>
 	        </div><!--/span-->
 	
-	      </div><!--/row-->
+	      </div><!--/row-fluid-->
 
 	      <hr>
 
