@@ -1,5 +1,13 @@
 {
-    "id": "1",  
-    "bookingtext": "Amazon Einkauf",
-    "date": "2012-01-01"
+	"id": "1",
+	"order_account": "1006404691",
+	"date_of_value": "14.12.12",
+	"bookingtext": "LASTSCHRIFT",
+	"reason_for_payment": "BESTNR 123",
+	"payer_recipient": "AMAZON.DE",
+	"account_number": "324324443",
+	"bic": "30030880",
+	"amount": "-244",
+	"currency": "EUR",
+	"info": "Umsatz vorgemerkt"
 }
