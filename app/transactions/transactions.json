@@ -10,7 +10,8 @@
 		"bic": "30030880",
 		"amount": "-244",
 		"currency": "EUR",
-		"info": "Umsatz vorgemerkt"
+		"info": "Umsatz vorgemerkt",
+		"category": "1"
 	},
 	{
 		"id": "2",
