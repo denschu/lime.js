@@ -10,9 +10,6 @@
         padding-top: 60px;
         padding-bottom: 40px;
       }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
   </style>
   <script src="lib/angular/angular.js"></script>
   <script src="js/app.js"></script>
@@ -51,8 +48,8 @@
 		
 	        <div class="span3">
 	          <div class="well sidebar-nav">
-		        Search: <input ng-model="query">
-				<ul class="nav nav-list">
+		          <input class="input-medium search-query" ng-model="query" placeholder="Search">
+			       	<ul class="nav nav-list">
 				              <li class="nav-header">Konten</li>
 				              <li class="active"><a href="#">All</a></li>
 				              <li><a href="#">Sparkasse Giro</a></li>
@@ -67,7 +64,7 @@
 				              <li><a href="#">Egypt</a></li>
 				              <li><a href="#">Brazil</a></li>
 				              <li><a href="#">Flat</a></li>
-				</ul>
+		      		</ul>
 	          </div><!--/.well -->
 	        </div><!--/span-->
 
@@ -79,7 +76,7 @@
 	      <hr>
 
 	      <footer>
-	        <p>&copy; Company 2012</p>
+	        <p>&copy; denschu 2012</p>
 	      </footer>
 
 	</div><!--/.fluid-container-->
